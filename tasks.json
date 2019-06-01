@@ -1,23 +1,27 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
-  // for the documentation about the tasks.json format
-  "version": "2.0.0",
-  "tasks": [
-      {
-          "label": "CF Type Search",
-          "command": "Chrome",
-          "windows": {
-              "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-          },
-          "args": ["https://docs.aws.amazon.com/search/doc-search.html?searchPath=documentation-guide&searchQuery=%22${selectedText}%22&x=0&y=0&this_doc_product=AWS+CloudFormation&this_doc_guide=User+Guide&doc_locale=en_us#facet_doc_product=AWS%20CloudFormation&facet_doc_guide=User%20Guide"]
-      },
-      {
-          "label": "CF Resource List",
-          "command": "Chrome",
-          "windows": {
-              "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-          },
-          "args": ["https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html"]
-      }
-  ]
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CF Type Search",
+            "command": "Chrome",
+            "windows": {
+                "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+            },
+            "args": [
+                "https://docs.aws.amazon.com/search/doc-search.html?searchPath=documentation-guide&searchQuery=%22${selectedText}%22&x=0&y=0&this_doc_product=AWS+CloudFormation&this_doc_guide=User+Guide&doc_locale=en_us#facet_doc_product=AWS%20CloudFormation&facet_doc_guide=User%20Guide"
+            ]
+        },
+        {
+            "label": "CF Resource List",
+            "command": "Chrome",
+            "windows": {
+                "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+            },
+            "args": [
+                "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html"
+            ]
+        }
+    ]
 }

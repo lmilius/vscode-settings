@@ -9,8 +9,17 @@ I have installed the following VSCode Extentions, which can be very useful for C
 1. EditorConfig for VSCode
     - plus .editorconfig for any yaml files per repo
 1. Sort lines
-1. VSCode Tasks
-    - plus tasks.json file per repo to lookup cfn types docs
 1. vscode-cfn-lint
     - first, `pip install cfn-lint`
 1. YAML Support by Red Hat (YAML) author is Red Hat
+1. Python
+
+
+copy the following files into the respective directories:
+- System settings:
+    - settings.json -> ${APP_DATA}\Roaming\Code\User\settings.json
+    - python.json -> ${APP_DATA}\Roaming\Code\User\snippets\python.json
+- Per Workspace settings:
+    - tasks.json -> repo/.vscode/tasks.json
+- Per Repo settings:
+    - .editorconfig -> repo/.editorconfig

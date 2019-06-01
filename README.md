@@ -2,7 +2,7 @@
 
 These settings are from my personal preference when switching from pycharm.
 
-I have installed the following VSCode Extentions:
+I have installed the following VSCode Extentions, which can be very useful for Cloudformation templates:
 
 1. Indenticator
 1. indent-rainbow

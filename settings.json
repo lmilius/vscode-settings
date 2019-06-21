@@ -61,5 +61,6 @@
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "python.pythonPath": "venv\\Scripts\\python.exe"
 }

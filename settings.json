@@ -65,5 +65,12 @@
     "python.pythonPath": "venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.pep8Enabled": true,
-    "python.linting.enabled": true
+    "python.linting.pep8Args": [
+        "--max-line-length=96"
+    ],
+    "python.linting.enabled": true,
+    "indentRainbow.ignoreErrorLanguages": [
+        "markdown",
+        "python"
+    ]
 }

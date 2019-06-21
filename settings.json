@@ -55,5 +55,11 @@
     "files.trimTrailingWhitespace": true,
     "workbench.editor.highlightModifiedTabs": true,
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "window.restoreWindows": "all",
+    "window.openFoldersInNewWindow": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
 }

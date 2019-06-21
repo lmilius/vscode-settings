@@ -14,6 +14,7 @@ I have installed the following VSCode Extentions, some of which can be very usef
 1. YAML Support by Red Hat (YAML) author is Red Hat
 1. Python
 1. IntelliJ IDEA Keybindings
+    - Also need to remove keybindings on "alt+left" and "alt+right" for previousEditor and nextEditor so that navigateBack and navigateForward works correctly
 
 
 copy the following files into the respective directories:

@@ -21,6 +21,7 @@ copy the following files into the respective directories:
 - System settings:
     - settings.json -> ${APP_DATA}\Roaming\Code\User\settings.json
     - python.json -> ${APP_DATA}\Roaming\Code\User\snippets\python.json
+    - keybindings.json -> ${APP_DATA}\Roaming\Code\User\keybindings.json
 - Per Workspace settings:
     - tasks.json -> repo/.vscode/tasks.json
 - Per Repo settings:

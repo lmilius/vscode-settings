@@ -62,5 +62,8 @@
     "window.openFoldersInNewWindow": "on",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "python.pythonPath": "venv\\Scripts\\python.exe"
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true
 }

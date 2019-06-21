@@ -2,7 +2,7 @@
 
 These settings are from my personal preference when switching from pycharm.
 
-I have installed the following VSCode Extentions, which can be very useful for Cloudformation templates:
+I have installed the following VSCode Extentions, some of which can be very useful for Cloudformation templates:
 
 1. Indenticator
 1. indent-rainbow
@@ -13,6 +13,7 @@ I have installed the following VSCode Extentions, which can be very useful for C
     - first, `pip install cfn-lint`
 1. YAML Support by Red Hat (YAML) author is Red Hat
 1. Python
+1. IntelliJ IDEA Keybindings
 
 
 copy the following files into the respective directories:
